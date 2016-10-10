@@ -8,6 +8,6 @@ public class DestroyOnColliding : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D collisionInfo) {
         Destroy(gameObject);
-        print(aviso);
+        Debug.Log(aviso);
     }
 }
